@@ -1,33 +1,66 @@
 # 💻 LeetCode Matrix App
 
-A **React-based interactive dashboard** that visualizes your **LeetCode problem-solving journey** in a clean, color-coded matrix format.  
-Track your daily progress, filter by difficulty, and see your growth as a developer — all in one intuitive interface.
+A **simple JavaScript-based web app** that visualizes LeetCode problem-solving progress in a **matrix-style layout**.  
+It helps users track solved, attempted, and unsolved problems visually — without any frameworks or build tools.
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
+
+The **LeetCode Matrix App** uses only:
+- **HTML** → Structure of the grid  
+- **CSS** → Styling and color-coded statuses  
+- **JavaScript** → Logic to mark and update problems dynamically  
+
+It’s lightweight, fast, and perfect for beginners practicing DOM manipulation and event handling.
+
+---
+
+## 🎯 Features
 
 | Feature | Description |
 |:--------|:-------------|
-| 🧩 **Matrix Grid View** | Displays problems as a grid (matrix) organized by category and difficulty. |
-| 🎯 **Progress Tracking** | Marks problems as *Solved*, *Attempted*, or *Unsolved*. |
-| 🔍 **Search & Filter** | Quickly find problems by tags, difficulty, or status. |
-| 📅 **Daily Streaks** | Visualize your consistency and problem-solving streaks. |
-| ⚡ **Local Storage Sync** | Automatically saves progress in your browser (no backend needed). |
-| 🌙 **Dark / Light Mode** | Seamless theme toggle for coding comfort. |
+| 🧩 **Matrix Grid View** | Displays problems in a matrix layout by topic or difficulty. |
+| ✅ **Mark Status** | Toggle problem status as *Solved*, *Attempted*, or *Unsolved*. |
+| 💾 **Local Storage Save** | Keeps progress saved even after refreshing the page. |
+| 🎨 **Color Indicators** | Visually clear: Green (Solved), Yellow (Attempted), Red (Unsolved). |
+| 🕹️ **Simple UI** | Clean interface, easy to navigate, no dependencies. |
 
 ---
 
 ## 🧠 Tech Stack
 
-| Technology | Purpose |
-|:------------|:---------|
-| **React + Vite** | Frontend framework for fast development |
-| **Tailwind CSS** | Utility-first styling with responsive design |
-| **React Icons** | Clean and lightweight icon set |
-| **Local Storage API** | Store progress persistently on client side |
+| Technology | Role |
+|:------------|:------|
+| **HTML5** | Layout and structure |
+| **CSS3** | Styling, grid, and color coding |
+| **Vanilla JavaScript (ES6)** | Logic and DOM manipulation |
 
 ---
 
 ## 🗂️ Folder Structure
+
+leetcode-matrix-app/
+│
+├── index.html # Main file
+├── style.css # App styling
+├── script.js # Core logic and interactivity
+└── README.md # Documentation
+
+Learning Goals
+
+- Practice DOM manipulation using plain JavaScript
+- Learn data persistence using localStorage
+- Understand CSS Grid / Flexbox layout for clean UI
+- Improve project organization with modular files
+
+  Future Improvements
+
+- Add search or filter by topic/difficulty
+- Include progress percentage tracker
+- Add export/import data feature
+- Make responsive layout for mobile users
+
+- 📜 License
+Released under the MIT License — free for personal and educational use.
 
