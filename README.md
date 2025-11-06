@@ -1,15 +1,14 @@
 # 💻 LeetCode Matrix App
 
-A **simple JavaScript-based web app** that visualizes LeetCode problem-solving progress in a **matrix-style layout**.  
+A simple JavaScript-based web app that visualizes LeetCode problem-solving progress in a matrix-style layout.  
 It helps users track solved, attempted, and unsolved problems visually — without any frameworks or build tools.
----
 
 ## Project Preview : [live demo here](https://paras941.github.io/leetcode-matrix-app/)
----
+
 
 ## 🚀 Overview
 
-The **LeetCode Matrix App** uses only:
+The LeetCode Matrix App uses only:
 - **HTML** → Structure of the grid  
 - **CSS** → Styling and color-coded statuses  
 - **JavaScript** → Logic to mark and update problems dynamically  
