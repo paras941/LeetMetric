@@ -3,7 +3,7 @@
 A lightweight JavaScript-based web application that visualizes **LeetCode problem-solving progress** in a matrix layout.  
 It allows users to track **Solved, Attempted, and Unsolved** problems visually using only HTML, CSS, and Vanilla JavaScript.
 
-🔗 **Live Demo:[Click Here](https://paras941.github.io/LeetMetric/)
+🔗 **Live Demo: [Click Here](https://paras941.github.io/LeetMetric/)
 
 ---
 
