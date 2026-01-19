@@ -1,67 +1,83 @@
 # 💻 LeetCode Matrix App
 
-A simple JavaScript-based web app that visualizes LeetCode problem-solving progress in a matrix-style layout.  
-It helps users track solved, attempted, and unsolved problems visually — without any frameworks or build tools.
+A lightweight JavaScript-based web application that visualizes **LeetCode problem-solving progress** in a matrix layout.  
+It allows users to track **Solved, Attempted, and Unsolved** problems visually using only HTML, CSS, and Vanilla JavaScript.
 
-- Project Preview : [live demo here 👇](https://paras941.github.io/LeetMetric/)
-
-
-## 🚀 Overview
-
-The LeetCode Matrix App uses only:
-- **HTML** → Structure of the grid.
-- **CSS** → Styling and color-coded statuses  
-- **JavaScript** → Logic to mark and update problems dynamically  
-
-It’s lightweight, fast, and perfect for beginners practicing DOM manipulation and event handling.
+🔗 **Live Demo:[Click Here](https://paras941.github.io/LeetMetric/)
 
 ---
 
-## 🎯 Features
+## 🚀 Project Overview
+
+| Aspect | Description |
+|--------|-------------|
+| Purpose | Visual tracking of LeetCode problem progress |
+| UI Style | Matrix / grid-based layout |
+| Data Storage | Browser LocalStorage |
+| Frameworks | None (Pure HTML, CSS, JS) |
+| Performance | Lightweight and fast |
+
+---
+
+## 🎯 Key Features
 
 | Feature | Description |
-|:--------|:-------------|
-| 🧩 **Matrix Grid View** | Displays problems in a matrix layout by topic or difficulty. |
-| ✅ **Mark Status** | Toggle problem status as *Solved*, *Attempted*, or *Unsolved*. |
-| 💾 **Local Storage Save** | Keeps progress saved even after refreshing the page. |
-| 🎨 **Color Indicators** | Visually clear: Green (Solved), Yellow (Attempted), Red (Unsolved). |
-| 🕹️ **Simple UI** | Clean interface, easy to navigate, no dependencies. |
+|--------|-------------|
+| Matrix Grid View | Displays problems in a topic/difficulty grid |
+| Status Toggle | Mark problems as Solved, Attempted, Unsolved |
+| Color Indicators | Green = Solved, Yellow = Attempted, Red = Unsolved |
+| Persistent Storage | Saves progress using LocalStorage |
+| Clean UI | Minimal, dependency-free interface |
 
 ---
 
 ## 🧠 Tech Stack
 
 | Technology | Role |
-|:------------|:------|
-| **HTML5** | Layout and structure |
-| **CSS3** | Styling, grid, and color coding |
-| **Vanilla JavaScript (ES6)** | Logic and DOM manipulation |
+|------------|------|
+| HTML5 | Page structure |
+| CSS3 | Grid layout and color styling |
+| JavaScript (ES6) | DOM logic and state handling |
 
 ---
 
 ## 🗂️ Folder Structure
 
-leetcode-matrix-app/
-│
-├── index.html # Main file
-├── style.css # App styling
-├── script.js # Core logic and interactivity
-└── README.md # Documentation
+| File | Purpose |
+|------|---------|
+| `index.html` | Main application layout |
+| `style.css` | Styling and grid system |
+| `script.js` | Core logic and status handling |
+| `README.md` | Project documentation |
 
-Learning Goals
+---
 
-- Practice DOM manipulation using plain JavaScript
-- Learn data persistence using localStorage
-- Understand CSS Grid / Flexbox layout for clean UI
-- Improve project organization with modular files
+## 📚 Learning Goals
 
-  Future Improvements
+| Area | Skill Gained |
+|------|--------------|
+| DOM Manipulation | Dynamic grid updates |
+| State Management | Tracking problem status |
+| LocalStorage | Data persistence |
+| CSS Grid | Responsive matrix layout |
+| Clean Architecture | Separation of concerns |
 
-- Add search or filter by topic/difficulty
-- Include progress percentage tracker
-- Add export/import data feature
-- Make responsive layout for mobile users
+---
 
-- 📜 License
-Released under the MIT License — free for personal and educational use.
+## 🚧 Future Enhancements
 
+| Feature | Description |
+|--------|-------------|
+| Search & Filter | Filter by topic or difficulty |
+| Progress Stats | Percentage completion view |
+| Data Export | Backup and restore progress |
+| Mobile Support | Fully responsive layout |
+
+---
+
+## 📜 License
+
+| Type | Details |
+|------|---------|
+| License | MIT |
+| Usage | Free for personal and educational use |
